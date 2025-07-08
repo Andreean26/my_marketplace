@@ -44,7 +44,7 @@ $this->registerLinkTag(['rel' => 'icon', 'type' => 'image/x-icon', 'href' => Yii
             ['label' => '<i class="fas fa-home me-1"></i>Beranda', 'url' => ['/site/index'], 'encode' => false],
             ['label' => '<i class="fas fa-th-large me-1"></i>Kategori', 'url' => ['/site/categories'], 'encode' => false],
             ['label' => '<i class="fas fa-shopping-cart me-1"></i>Keranjang', 'url' => ['/site/cart'], 'encode' => false],
-            ['label' => '<i class="fas fa-envelope me-1"></i>Kontak', 'url' => ['/site/contact'], 'encode' => false],
+            ['label' => '<i class="fas fa-circle-user me-1"></i>Akun', 'url' => ['/site/contact'], 'encode' => false],
             Yii::$app->user->isGuest
                 ? ['label' => '<i class="fas fa-sign-in-alt me-1"></i>Masuk', 'url' => ['/site/login'], 'encode' => false]
                 : '<li class="nav-item">'

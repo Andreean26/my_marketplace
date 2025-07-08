@@ -1,233 +1,238 @@
+# 🛍️ BlueMarket - Premium Marketplace Testing
+
 <p align="center">
-    <a href="https://github.com/yiisoft" target="_blank">
-        <img src="https://avatars0.githubusercontent.com/u/993323" height="100px">
-    </a>
-    <h1 align="center">Yii 2 Basic Project Template</h1>
-    <br>
+    <img src="https://img.shields.io/badge/Framework-Yii2-blue?style=for-the-badge&logo=yii" alt="Yii2 Framework">
+    <img src="https://img.shields.io/badge/PHP-7.4+-777BB4?style=for-the-badge&logo=php" alt="PHP Version">
+    <img src="https://img.shields.io/badge/Status-Testing-orange?style=for-the-badge" alt="Status">
+    <img src="https://img.shields.io/badge/Frontend-Bootstrap5-7952B3?style=for-the-badge&logo=bootstrap" alt="Bootstrap">
 </p>
 
-Yii 2 Basic Project Template is a skeleton [Yii 2](https://www.yiiframework.com/) application best for
-rapidly creating small projects.
+<p align="center">
+    <strong>🚀 Testing pembuatan website marketplace modern menggunakan Yii2 Framework</strong>
+</p>
 
-The template contains the basic features including user login/logout and a contact page.
-It includes all commonly used configurations that would allow you to focus on adding new
-features to your application.
+---
 
-[![Latest Stable Version](https://img.shields.io/packagist/v/yiisoft/yii2-app-basic.svg)](https://packagist.org/packages/yiisoft/yii2-app-basic)
-[![Total Downloads](https://img.shields.io/packagist/dt/yiisoft/yii2-app-basic.svg)](https://packagist.org/packages/yiisoft/yii2-app-basic)
-[![build](https://github.com/yiisoft/yii2-app-basic/workflows/build/badge.svg)](https://github.com/yiisoft/yii2-app-basic/actions?query=workflow%3Abuild)
+## 📋 **Tentang Project**
 
-DIRECTORY STRUCTURE
--------------------
+**BlueMarket** adalah project testing untuk pengembangan website marketplace yang menggunakan **Yii2 Framework**. Project ini dibuat untuk menguji kemampuan dalam membangun interface marketplace yang modern, responsif, dan user-friendly dengan fitur-fitur yang engaging.
 
-      assets/             contains assets definition
-      commands/           contains console commands (controllers)
-      config/             contains application configurations
-      controllers/        contains Web controller classes
-      mail/               contains view files for e-mails
-      models/             contains model classes
-      runtime/            contains files generated during runtime
-      tests/              contains various tests for the basic application
-      vendor/             contains dependent 3rd-party packages
-      views/              contains view files for the Web application
-      web/                contains the entry script and Web resources
+### 🎯 **Tujuan Testing**
+- Menguji implementasi Yii2 framework dalam pembuatan marketplace
+- Mengembangkan UI/UX yang menarik dengan nuansa warna biru elegant
+- Testing responsive design untuk berbagai ukuran layar
+- Implementasi animasi dan micro-interactions yang smooth
+- Testing struktur CSS yang terorganisir dan maintainable
 
+---
 
+## 🎨 **Preview Website**
 
-REQUIREMENTS
-------------
+### 🏠 **Homepage Features**
 
-The minimum requirement by this project template that your Web server supports PHP 7.4.
+#### 🌟 **Hero Section**
+- **Full viewport hero** dengan ukuran standar desktop (1280x720 - 1920x1080px)
+- **Animated background** dengan floating elements dan gradient dinamis
+- **Enhanced search box** dengan glass morphism effect
+- **Feature badges** dengan tooltip informatif
+- **Smooth animations** dan micro-interactions
 
+#### 📱 **Responsive Design**
+- **Desktop**: Hero dengan aspect ratio optimal (16:9)
+- **Tablet**: Layout yang disesuaikan untuk layar medium
+- **Mobile**: Full responsive dengan optimasi touch interface
 
-INSTALLATION
-------------
+#### 🎪 **Visual Elements**
+- **Color Theme**: Nuansa biru elegant (#1e3c72, #2a5298, #0d47a1)
+- **Typography**: Gradient text dengan shimmer animation
+- **Animations**: Staggered entrance, floating icons, smooth transitions
+- **Components**: Modern card design dengan hover effects
 
-### Install via Composer
+### 🛍️ **Marketplace Components**
 
-If you do not have [Composer](https://getcomposer.org/), you may install it by following the instructions
-at [getcomposer.org](https://getcomposer.org/doc/00-intro.md#installation-nix).
+#### 🏷️ **Kategori Populer**
+- **4 Kategori Utama**: Elektronik, Fashion, Rumah Tangga, Gaming
+- **Interactive Cards**: Hover animations dengan transform effects
+- **Icon Integration**: Font Awesome 6.0 dengan gradient backgrounds
 
-You can then install this project template using the following command:
+#### ⭐ **Produk Unggulan**
+- **Product Cards**: Modern design dengan rating stars
+- **Hover Effects**: Smooth transform dan shadow animations
+- **Pricing Display**: Formatted currency dengan attractive styling
 
-~~~
-composer create-project --prefer-dist yiisoft/yii2-app-basic basic
-~~~
+#### 📊 **Statistics Section**
+- **Dynamic Counters**: 10K+ Produk, 5K+ Penjual, 50K+ Pelanggan
+- **Animated Numbers**: Fade-in animations dengan delays
+- **Background Effects**: Gradient dengan floating elements
 
-Now you should be able to access the application through the following URL, assuming `basic` is the directory
-directly under the Web root.
+#### 🎯 **Call-to-Action**
+- **Dual CTA Buttons**: "Mulai Belanja" dan "Daftar Sebagai Penjual"
+- **Enhanced Styling**: Gradient buttons dengan hover animations
 
-~~~
-http://localhost/basic/web/
-~~~
+---
 
-### Install from an Archive File
+## 🛠️ **Technical Stack**
 
-Extract the archive file downloaded from [yiiframework.com](https://www.yiiframework.com/download/) to
-a directory named `basic` that is directly under the Web root.
+### 🔧 **Backend**
+- **Framework**: Yii2 (PHP 7.4+)
+- **Architecture**: MVC Pattern
+- **Asset Management**: Yii2 Asset Bundles
 
-Set cookie validation key in `config/web.php` file to some random secret string:
+### 🎨 **Frontend**
+- **CSS Framework**: Bootstrap 5
+- **Icons**: Font Awesome 6.0
+- **Animations**: CSS3 Transforms & Transitions
+- **Layout**: CSS Grid & Flexbox
+- **Responsive**: Mobile-first approach
 
-```php
-'request' => [
-    // !!! insert a secret key in the following (if it is empty) - this is required by cookie validation
-    'cookieValidationKey' => '<secret random string goes here>',
-],
+### 📁 **Project Structure**
+```
+web/css/
+├── components/
+│   ├── hero.css          # Hero section styles
+│   ├── categories.css    # Category cards
+│   ├── products.css      # Product components
+│   ├── stats.css         # Statistics section
+│   └── common.css        # Shared components
+├── marketplace.css       # Global styles
+└── README.md            # CSS documentation
+
+web/js/
+└── hero-interactions.js  # Interactive features
+
+views/
+├── layouts/main.php      # Main layout
+└── site/index.php        # Homepage
 ```
 
-You can then access the application through the following URL:
+---
 
-~~~
-http://localhost/basic/web/
-~~~
+## 🎯 **Design Features**
 
+### 🌈 **Color Palette**
+- **Primary Blue**: `#1e3c72` (Deep Blue)
+- **Secondary Blue**: `#2a5298` (Medium Blue)
+- **Accent Blue**: `#0d47a1` (Bright Blue)
+- **Background**: `#f8faff` (Light Blue Tint)
+- **Gradients**: Linear gradients dengan multiple stops
 
-### Install with Docker
+### 🎭 **Animations & Effects**
+- **Hero Title**: Shimmer text effect dengan gradient animation
+- **Search Box**: Glass morphism dengan backdrop blur
+- **Feature Badges**: Tooltip dengan smooth transitions
+- **Floating Elements**: Parallax scrolling effects
+- **Micro-interactions**: Hover states untuk semua interactive elements
 
-Update your vendor packages
+### 📱 **Responsive Breakpoints**
+- **4K (3840px+)**: Enhanced typography dan spacing
+- **Desktop (1280px-1920px)**: Optimal hero sizing
+- **Tablet (768px-1279px)**: Adapted layout
+- **Mobile (≤767px)**: Touch-optimized interface
 
-    docker-compose run --rm php composer update --prefer-dist
-    
-Run the installation triggers (creating cookie validation code)
+---
 
-    docker-compose run --rm php composer install    
-    
-Start the container
+## 🚀 **Installation & Setup**
 
-    docker-compose up -d
-    
-You can then access the application through the following URL:
+### 📋 **Requirements**
+- PHP 7.4 atau lebih tinggi
+- Composer
+- Web server (Apache/Nginx)
 
-    http://127.0.0.1:8000
+### 🔧 **Quick Start**
+```bash
+# Clone atau download project
+git clone [repository-url]
 
-**NOTES:** 
-- Minimum required Docker engine version `17.04` for development (see [Performance tuning for volume mounts](https://docs.docker.com/docker-for-mac/osxfs-caching/))
-- The default configuration uses a host-volume in your home directory `.docker-composer` for composer caches
+# Install dependencies
+composer install
 
+# Set cookie validation key di config/web.php
+'cookieValidationKey' => 'your-secret-key-here'
 
-CONFIGURATION
--------------
-
-### Database
-
-Edit the file `config/db.php` with real data, for example:
-
-```php
-return [
-    'class' => 'yii\db\Connection',
-    'dsn' => 'mysql:host=localhost;dbname=yii2basic',
-    'username' => 'root',
-    'password' => '1234',
-    'charset' => 'utf8',
-];
+# Jalankan development server
+php yii serve
 ```
 
-**NOTES:**
-- Yii won't create the database for you, this has to be done manually before you can access it.
-- Check and edit the other files in the `config/` directory to customize your application as required.
-- Refer to the README in the `tests` directory for information specific to basic application tests.
-
-
-TESTING
--------
-
-Tests are located in `tests` directory. They are developed with [Codeception PHP Testing Framework](https://codeception.com/).
-By default, there are 3 test suites:
-
-- `unit`
-- `functional`
-- `acceptance`
-
-Tests can be executed by running
-
+### 🌐 **Access Application**
 ```
-vendor/bin/codecept run
+http://localhost:8080
 ```
 
-The command above will execute unit and functional tests. Unit tests are testing the system components, while functional
-tests are for testing user interaction. Acceptance tests are disabled by default as they require additional setup since
-they perform testing in real browser. 
+---
 
+## 📸 **Screenshots**
 
-### Running  acceptance tests
+### 🏠 **Homepage Hero**
+- Full-screen hero dengan animated background
+- Search box dengan glass morphism effect
+- Feature badges dengan tooltips
+- Smooth scroll indicator
 
-To execute acceptance tests do the following:  
+### 🛍️ **Product Sections**
+- Category cards dengan hover animations
+- Product showcase dengan rating display
+- Statistics dengan animated counters
+- Call-to-action buttons
 
-1. Rename `tests/acceptance.suite.yml.example` to `tests/acceptance.suite.yml` to enable suite configuration
+---
 
-2. Replace `codeception/base` package in `composer.json` with `codeception/codeception` to install full-featured
-   version of Codeception
+## 🎨 **Custom Features**
 
-3. Update dependencies with Composer 
+### ⚡ **Performance Optimizations**
+- CSS animations menggunakan GPU acceleration
+- Optimized asset loading dengan Yii2 Asset Bundles
+- Modular CSS structure untuk better maintainability
 
-    ```
-    composer update  
-    ```
+### 🎯 **User Experience**
+- Smooth scrolling navigation
+- Interactive search dengan dynamic placeholders
+- Responsive design dengan touch-friendly interface
+- Accessibility-focused development
 
-4. Download [Selenium Server](https://www.seleniumhq.org/download/) and launch it:
+### 🔮 **Future Enhancements**
+- Database integration untuk dynamic content
+- User authentication system
+- Shopping cart functionality
+- Payment gateway integration
+- Admin dashboard
 
-    ```
-    java -jar ~/selenium-server-standalone-x.xx.x.jar
-    ```
+---
 
-    In case of using Selenium Server 3.0 with Firefox browser since v48 or Google Chrome since v53 you must download [GeckoDriver](https://github.com/mozilla/geckodriver/releases) or [ChromeDriver](https://sites.google.com/a/chromium.org/chromedriver/downloads) and launch Selenium with it:
+## 📝 **Testing Notes**
 
-    ```
-    # for Firefox
-    java -jar -Dwebdriver.gecko.driver=~/geckodriver ~/selenium-server-standalone-3.xx.x.jar
-    
-    # for Google Chrome
-    java -jar -Dwebdriver.chrome.driver=~/chromedriver ~/selenium-server-standalone-3.xx.x.jar
-    ``` 
-    
-    As an alternative way you can use already configured Docker container with older versions of Selenium and Firefox:
-    
-    ```
-    docker run --net=host selenium/standalone-firefox:2.53.0
-    ```
+### ✅ **Completed Features**
+- [x] Responsive hero section dengan ukuran standar
+- [x] Interactive search functionality
+- [x] Animated category cards
+- [x] Product showcase components
+- [x] Statistics section dengan counters
+- [x] Smooth scrolling navigation
+- [x] Mobile-responsive design
 
-5. (Optional) Create `yii2basic_test` database and update it by applying migrations if you have them.
+### 🔄 **Testing Areas**
+- Hero section pada berbagai resolusi layar
+- Animasi performance pada device yang berbeda
+- Touch interactions pada mobile
+- CSS loading dan rendering speed
+- Cross-browser compatibility
 
-   ```
-   tests/bin/yii migrate
-   ```
+---
 
-   The database configuration can be found at `config/test_db.php`.
+## 👨‍💻 **Developer Info**
 
+Project ini dibuat sebagai **testing pembuatan marketplace** menggunakan **Yii2 Framework** dengan fokus pada:
+- Modern UI/UX design
+- Responsive web development
+- CSS animations dan micro-interactions
+- Component-based architecture
+- Performance optimization
 
-6. Start web server:
+**Framework**: Yii2 Basic Project Template  
+**Development**: Testing & Learning Purpose  
+**Status**: In Development  
 
-    ```
-    tests/bin/yii serve
-    ```
+---
 
-7. Now you can run all available tests
-
-   ```
-   # run all available tests
-   vendor/bin/codecept run
-
-   # run acceptance tests
-   vendor/bin/codecept run acceptance
-
-   # run only unit and functional tests
-   vendor/bin/codecept run unit,functional
-   ```
-
-### Code coverage support
-
-By default, code coverage is disabled in `codeception.yml` configuration file, you should uncomment needed rows to be able
-to collect code coverage. You can run your tests and collect coverage with the following command:
-
-```
-#collect coverage for all tests
-vendor/bin/codecept run --coverage --coverage-html --coverage-xml
-
-#collect coverage only for unit tests
-vendor/bin/codecept run unit --coverage --coverage-html --coverage-xml
-
-#collect coverage for unit and functional tests
-vendor/bin/codecept run functional,unit --coverage --coverage-html --coverage-xml
-```
-
-You can see code coverage output under the `tests/_output` directory.
+<p align="center">
+    <strong>🌟 BlueMarket - Where Premium Meets Performance 🌟</strong>
+</p>

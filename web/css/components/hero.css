@@ -6,11 +6,10 @@
     padding: 0;
     position: relative;
     overflow: hidden;
-    border-radius: 0;
+    border-radius: 20px;
+    /* top: -60px; */
     /* Standard hero dimensions for desktop */
-    height: 720px; /* 720p height */
-    max-height: 1080px; /* Full HD height */
-    min-height: 600px; /* Minimum for smaller screens */
+    
     display: flex;
     align-items: center;
     justify-content: center;

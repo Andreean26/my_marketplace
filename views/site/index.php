@@ -4,9 +4,7 @@
 
 $this->title = 'BlueMarket - Premium Marketplace';
 ?>
-
-<div class="site-index">
-    <!-- Enhanced Hero Section -->
+<!-- Enhanced Hero Section -->
     <div class="marketplace-hero">
         <!-- Floating Background Elements -->
         <div class="floating-elements">
@@ -18,7 +16,7 @@ $this->title = 'BlueMarket - Premium Marketplace';
             <i class="floating-icon fas fa-crown"></i>
         </div>
         
-        <div class="container">
+        <div class="contain er">
             <div class="hero-content">
                 <h1 class="hero-title text-reveal">Selamat Datang di BlueMarket</h1>
                 <p class="hero-subtitle">Marketplace premium dengan ribuan produk berkualitas tinggi dari penjual terpercaya di seluruh Indonesia. Temukan pengalaman berbelanja yang tak terlupakan!</p>
@@ -69,6 +67,9 @@ $this->title = 'BlueMarket - Premium Marketplace';
             <i class="fas fa-chevron-down"></i>
         </div>
     </div>
+
+<div class="site-index">
+   
 
     <!-- Categories Section -->
     <div id="categories" class="container my-5 py-5">
